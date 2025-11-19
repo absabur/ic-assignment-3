@@ -15,6 +15,9 @@
       sizes="2374x2374"
     />
 
+    <!-- No Index , No Follow. I already have a website. -->
+    <meta name="robots" content="noindex, nofollow" />
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -119,34 +122,6 @@
     </header>
 
     <main class="pt-20">
-      <!-- ICONS -->
-      <div
-        class="fixed bottom-5 right-5 flex flex-col gap-3 z-50"
-        aria-label="Social Media Links"
-      >
-        <a
-          href="https://github.com/absabur"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="w-[35px] h-[35px] flex items-center justify-center bg-brand-500 rounded-full"
-          ><i class="fa-brands fa-github"></i
-        ></a>
-        <a
-          href="https://linkedin.com/in/ab-sabur"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="w-[35px] h-[35px] flex items-center justify-center bg-brand-500 rounded-full"
-          ><i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a
-          href="https://absabur.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="w-[35px] h-[35px] flex items-center justify-center bg-brand-500 rounded-full"
-          ><i class="fa-solid fa-link"></i
-        ></a>
-      </div>
-
       <!-- HERO -->
       <section id="hero" class="min-h-screen flex items-center">
         <div
@@ -164,9 +139,10 @@
             </p>
             <div class="flex gap-4">
               <a
-                href="#work"
+                href="assets/Md_Abdus_Sabur_MERN_Stack_Developer_Resume.pdf"
+                target="_blank"
                 class="px-5 py-3 bg-brand-500 text-black rounded-lg font-semibold shadow-lg hover:shadow-xl transition"
-                >See My Work</a
+                >Resume</a
               >
               <a
                 href="#contact"
@@ -543,7 +519,13 @@
             <div
               class="bg-gray-900/60 glass rounded-xl p-4 border border-white/10 hover:shadow-lg transition"
             >
-              <h3 class="font-semibold">Library Management System Admin</h3>
+              <a
+                href="https://bpi-lms-admin.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 class="font-semibold">Library Management System Admin</h3>
+              </a>
               <p class="mt-2 text-sm text-gray-400">
                 Built with Next.js, Node.js and Express.
               </p>
@@ -556,7 +538,13 @@
             <div
               class="bg-gray-900/60 glass rounded-xl p-4 border border-white/10 hover:shadow-lg transition"
             >
-              <h3 class="font-semibold">Library Management System</h3>
+              <a
+                href="https://bpi-lms.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 class="font-semibold">Library Management System</h3></a
+              >
               <p class="mt-2 text-sm text-gray-400">
                 User interface system for library using Next.js and Express.
               </p>
@@ -569,7 +557,13 @@
             <div
               class="bg-gray-900/60 glass rounded-xl p-4 border border-white/10 hover:shadow-lg transition"
             >
-              <h3 class="font-semibold">CMUHS Alumni Association</h3>
+              <a
+                href="https://cmu-alumni.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 class="font-semibold">CMUHS Alumni Association</h3></a
+              >
               <p class="mt-2 text-sm text-gray-400">
                 Alumni portal built with Next.js, Tailwind and MongoDB.
               </p>
@@ -583,13 +577,19 @@
             <div
               class="bg-gray-900/60 glass rounded-xl p-4 border border-white/10 hover:shadow-lg transition"
             >
-              <h3 class="font-semibold">Prime Academy</h3>
+              <a
+                href="https://prime-academy-bd.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 class="font-semibold">Prime Academy</h3></a
+              >
               <p class="mt-2 text-sm text-gray-400">
                 Built using React.js, Redux Toolkit, Tailwind CSS.
               </p>
               <div class="mt-3 flex gap-2 text-xs text-gray-300">
                 <span class="px-2 py-1 bg-white/10 rounded">React</span>
-                <span class="px-2 py-1 bg-white/10 rounded">Redux</span>
+                <span class="px-2 py-1 bg-white/10 rounded">Redux Toolkit</span>
                 <span class="px-2 py-1 bg-white/10 rounded">Tailwind</span>
               </div>
             </div>
@@ -597,7 +597,13 @@
             <div
               class="bg-gray-900/60 glass rounded-xl p-4 border border-white/10 hover:shadow-lg transition"
             >
-              <h3 class="font-semibold">Ecommerce App</h3>
+              <a
+                href="https://ecommerce-abs.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 class="font-semibold">Ecommerce App</h3></a
+              >
               <p class="mt-2 text-sm text-gray-400">
                 Full-stack ecommerce using React, Node.js, Express.
               </p>
@@ -611,7 +617,13 @@
             <div
               class="bg-gray-900/60 glass rounded-xl p-4 border border-white/10 hover:shadow-lg transition"
             >
-              <h3 class="font-semibold">CGPA Calculator</h3>
+              <a
+                href="https://nu-cgpa.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 class="font-semibold">CGPA Calculator</h3></a
+              >
               <p class="mt-2 text-sm text-gray-400">
                 Built with Next.js using static generation (SSG).
               </p>
@@ -625,45 +637,52 @@
       </section>
 
       <!-- EXPERIENCE / EDUCATION -->
-      <section id="experience" class="py-16 bg-gray-900 text-white">
-        <div class="max-w-5xl mx-auto px-6">
+      <section id="experience" class="py-16 bg-gray-900/40 text-white">
+        <div class="max-w-6xl mx-auto px-6">
           <h2 class="text-3xl font-bold mb-10 text-center">Work Experience</h2>
 
           <!-- Experience Card -->
-          <div
-            class="bg-gray-800 rounded-xl p-8 shadow-lg border border-gray-700 hover:border-blue-500 transition duration-300"
+          <a
+            href="https://www.linkedin.com/company/prime-academy-bangladesh/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <h3 class="text-xl font-semibold">
-              Prime Academy | Remote/On-site
-            </h3>
-            <p class="text-sm text-gray-400 mb-4">
-              MERN Stack Developer (Intern) — September 2025 – Present
-            </p>
+            <div
+              class="p-6 rounded-xl bg-gray-900/60 glass border border-white/10 border border-gray-700 hover:border-blue-500 transition duration-300"
+            >
+              <h3 class="text-xl font-semibold">
+                Prime Academy | Remote/On-site
+              </h3>
+              <p class="text-sm text-gray-400 mb-4">
+                MERN Stack Developer (Intern) — September 2025 – Present
+              </p>
 
-            <ul class="space-y-2 text-gray-300">
-              <li class="">
-                <span class="text-blue-400">➤</span>
-                Implemented <strong>10+ features</strong> for a Learning
-                Management System, enhancing administrative workflows and user
-                experience.
-              </li>
+              <ul class="space-y-2 text-gray-300">
+                <li class="">
+                  <span class="text-blue-400">➤</span>
+                  Implemented <strong>10+ features</strong> for a Learning
+                  Management System, enhancing administrative workflows and user
+                  experience.
+                </li>
 
-              <li class="">
-                <span class="text-blue-400">➤</span>
-                Engineered application
-                <strong>state management using Redux Toolkit</strong> to
-                integrate REST APIs, reducing data-fetch time and improving
-                performance.
-              </li>
+                <li class="">
+                  <span class="text-blue-400">➤</span>
+                  Engineered application
+                  <strong>state management using Redux Toolkit</strong> to
+                  integrate REST APIs, reducing data-fetch time and improving
+                  performance.
+                </li>
 
-              <li class="">
-                <span class="text-blue-400">➤</span>
-                Collaborated with a <strong>team of 4 developers</strong> using
-                Git & GitHub, following clean code practices and building
-                reusable component architecture.
-              </li>
-            </ul>
-          </div>
+                <li class="">
+                  <span class="text-blue-400">➤</span>
+                  Collaborated with a
+                  <strong>team of 4 developers</strong> using Git & GitHub,
+                  following clean code practices and building reusable component
+                  architecture.
+                </li>
+              </ul>
+            </div>
+          </a>
         </div>
       </section>
 
@@ -681,7 +700,13 @@
               <strong>Address:</strong> Bosila, Mohammadpur, Dhaka, Bangladesh
             </div>
           </div>
-          <form id="contactForm" class="mt-8 grid gap-4">
+          <form
+            id="contactForm"
+            action="mailto:absabur929@gmail.com"
+            method="post"
+            enctype="text/plain"
+            class="mt-8 grid gap-4"
+          >
             <input
               name="name"
               required
@@ -701,7 +726,13 @@
               class="p-3 rounded-lg bg-gray-900/40 border border-white/10 focus:ring-2 focus:ring-brand-300 h-32"
               placeholder="Your Message"
             ></textarea>
-            <div class="flex items-center justify-center">
+            <div class="flex items-center justify-center gap-4">
+              <button
+                type="reset"
+                class="px-5 py-3 ring-1 ring-white/20 rounded-lg"
+              >
+                Reset
+              </button>
               <button
                 type="submit"
                 class="px-5 py-3 rounded-lg bg-brand-500 text-black font-semibold hover:opacity-90 transition"
@@ -717,8 +748,38 @@
       </section>
 
       <!-- FOOTER -->
-      <footer class="py-8 text-center text-gray-500 border-t border-gray-800">
-        © 2025 Md Abdus Sabur
+      <footer class="py-8 text-center border-t border-gray-800">
+        <!-- ICONS -->
+        <div
+          class="fixed bottom-5 right-5 flex flex-col gap-3 z-50 text-black"
+          aria-label="Social Media Links"
+        >
+          <a
+            title="GitHub"
+            href="https://github.com/absabur"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-[35px] h-[35px] flex items-center justify-center bg-brand-500 rounded-full hover:text-white transition ducation-300"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            title="LinkedIn"
+            href="https://linkedin.com/in/ab-sabur"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-[35px] h-[35px] flex items-center justify-center bg-brand-500 rounded-full hover:text-white transition ducation-300"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            title="Portfolio"
+            href="https://absabur.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="w-[35px] h-[35px] flex items-center justify-center bg-brand-500 rounded-full hover:text-white transition ducation-300"
+            ><i class="fa-solid fa-link"></i
+          ></a>
+        </div>
+        <p class="text-gray-500 text-center">© 2025 Md Abdus Sabur</p>
       </footer>
     </main>
 

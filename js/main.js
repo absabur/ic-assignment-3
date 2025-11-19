@@ -13,17 +13,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  const form = document.getElementById("contactForm");
-  const formMsg = document.getElementById("formMsg");
+  // const form = document.getElementById("contactForm");
+  // const formMsg = document.getElementById("formMsg");
 
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    formMsg.classList.remove("hidden");
-    setTimeout(() => {
-      formMsg.classList.add("hidden");
-      form.reset();
-    }, 2000);
-  });
+  // form.addEventListener("submit", (e) => {
+  //   e.preventDefault();
+  //   formMsg.classList.remove("hidden");
+  //   setTimeout(() => {
+  //     formMsg.classList.add("hidden");
+  //     form.reset();
+  //   }, 2000);
+  // });
 
   // Scroll reveal (optional)
   const reveals = document.querySelectorAll("section, .glass");
